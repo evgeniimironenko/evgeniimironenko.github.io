@@ -1,0 +1,173 @@
+.block-info {
+  background-color: #fff;
+  @media screen and (min-width: 1920px) {
+    margin-top: 100px;
+    background-color: #fafafa;
+    background-size: contain;
+    padding: 20px;
+  }
+}
+
+.info-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1920px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+}
+
+.info-list__item {
+  @media screen and (min-width: 1920px) {
+    width: 25%;
+    min-width: 245px;
+    margin-bottom: 60px;
+  }
+}
+
+.info__title1 {
+  position: relative;
+  margin: 0 0 6px;
+  padding-left: 40px;
+  font-family: $title-ff;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: $main-dark-color;
+ 
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-size: 33px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    line-height: 78px;
+  }
+}
+
+.number1::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fcae26;
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/icon1.png);
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.team-icons::before {
+  display: block;
+  content: '';
+  padding: 0;
+  margin: 0;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  margin-left: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 80px;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 95px;
+    height: 95px;
+    padding: 30px;
+    margin-bottom: 36px;
+  }
+  
+}
+
+.icon1::before {
+  background-image: url(../images/1.png);
+  background-color: #faebd0;
+}
+
+.icon2::before {
+  background-image: url(../images/2.png);
+  background-color: #fbdcd2;
+}
+
+.icon3::before {
+  background-image: url(../images/3.png);
+  background-color: #e2d8f5;
+}
+
+.icon4::before {
+  background-image: url(../images/4.png);
+  background-color: #c8eae8;
+}
+
+.icon5::before {
+  background-image: url(../images/5.png);
+  background-color: #c8eae8;
+}
+
+.icon6::before {
+  background-image: url(../images/6.png);
+  background-color: #fbdcd2;
+}
+
+.icon7::before {
+  background-image: url(../images/7.png);
+  background-color: #faebd0;
+}
+
+.info__text {
+  margin: 0;
+  padding: 0;
+  color: $main-text-color;
+  font-family: $main-ff;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  width: 184px;
+  letter-spacing: 0.045em;
+
+  @media screen and (min-width: 768px) {
+    width: 210px;
+    margin-bottom: 36px;
+    margin-right: 80px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 100px;
+  }
+}
+

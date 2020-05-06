@@ -1,0 +1,151 @@
+.program {
+  padding-top: 55px;
+  margin-bottom: 32px;
+
+  @media screen and (min-width: 768px) and (max-width: 1919px) {
+    padding: 59px 34px 0;
+    margin-bottom: 56px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    @include flex-direction('sb-center');
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 102px;
+  }
+}
+
+.program__description {
+  position: relative;
+  max-width: 264px;
+
+  @media screen and (min-width: 768px) and (max-width: 1919px) {
+    max-width: 556px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    max-width: 537px;
+    margin-bottom: 114px;
+  }
+
+  &::before {
+    position: absolute;
+    top: -12px;
+    left: -4px;
+    display: block;
+    content: '\201c';
+    font-family: $quotes-ff;
+    font-size: 60px;
+    line-height: 40px;
+    letter-spacing: 0.07em;
+    color: $accent-color;
+
+    @media screen and (min-width: 768px) {
+      left: -37px;
+    }
+  }
+}
+
+.program__description-text {
+  margin: 0;
+  font-family: $main-ff;
+  font-size: $semi-fz;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  color: $semi-text-color;
+
+  &:first-child {
+    margin-bottom: 12px;
+  }
+
+  &:last-child {
+    margin-bottom: 23px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+.program__img {
+  height: 320px;
+  margin-bottom: 42px;
+  background-image: url('../images/children-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 70px;
+    background-image: url('../images/children-tablet.jpg');
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 400px;
+    width: 650px;
+    margin-bottom: 114px;
+    background-image: url('../images/children-desktop.jpg');
+  }
+}
+
+.program__training {
+  width: 100%;
+  background-color: #7550de;
+  border-radius: 8px;
+
+  @media screen and (min-width: 768px) {
+    @include flex-direction('center');
+    min-height: 182px;
+    background-color: #824fe3;
+    box-shadow: 3px 5.196px 18px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    border-radius: 4px;
+  }
+}
+
+.program__training-text {
+  max-width: 458px;
+  margin: 0;
+  font-family: $main-ff;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: $light-color;
+
+  @media screen and (max-width: 767px) {
+    padding: 25px 20px 23px;
+
+    &::before {
+      display: block;
+      content: '';
+      width: 60px;
+      height: 2px;
+      margin: 0 auto 11px;
+      background-color: $accent-color;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 540px;
+    padding-left: 20px;
+    border-left: 2px solid $accent-color;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  @media screen and (min-width: 1920px) {
+    max-width: 842px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}

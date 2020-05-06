@@ -1,0 +1,22 @@
+/*
+   Import partials below
+*/
+@import 'libs/fonts';
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/placeholders';
+@import 'libs/normalize';
+@import 'libs/base';
+@import 'shared/button';
+
+/* Components */
+@import 'components/container';
+@import 'components/banner';
+@import 'components/header';
+@import 'components/promo';
+@import 'components/scroll_down';
+@import 'components/program';
+@import 'components/courses';
+@import 'components/section2';
+@import 'components/section3';
+@import 'components/footer';

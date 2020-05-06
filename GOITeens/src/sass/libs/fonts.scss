@@ -1,0 +1,65 @@
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/UbuntuRegular/ubuntu-v14-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/UbuntuRegular/ubuntu-v14-latin-regular.woff') format('woff'); /* Modern Browsers */
+}
+
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/UbuntuBold/ubuntu-v14-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/UbuntuBold/ubuntu-v14-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+
+/* open-sans-600 - latin */
+@font-face {
+  font-family: 'Open Sans Semi Bold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/OpenSansSemi/open-sans-v17-latin-600.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/OpenSansSemi/open-sans-v17-latin-600.woff') format('woff'); /* Modern Browsers */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/OpenSansBold/open-sans-v17-latin-700.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/OpenSansBold/open-sans-v17-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+
+/* open-sans-800 - latin */
+@font-face {
+  font-family: 'Open Sans Extra Bold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/OpenSansExtra/open-sans-v17-latin-800.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/OpenSansExtra/open-sans-v17-latin-800.woff') format('woff'); /* Modern Browsers */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MontserratRegular/montserrat-v14-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/MontserratRegular/montserrat-v14-latin-regular.woff')
+      format('woff'); /* Modern Browsers */
+}

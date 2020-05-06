@@ -1,0 +1,20 @@
+.menu__subscribe {
+  width: 192px;
+  height: 42px;
+  margin-top: 44px;
+  font-size: $main-fz;
+  font-family: $title-ff;
+  font-weight: 700;
+  color: $light-btn-color;
+  background-color: $line-color;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px rgba(252, 174, 38, 0.4);
+  outline: none;
+  transition: 0.25s;
+  
+
+  &:hover {
+    background-color: $accent-btn-color;
+  }
+}

@@ -1,0 +1,33 @@
+@mixin pseudo($display: block, $content: '') {
+  display: $display;
+  content: $content;
+}
+
+@mixin bg-image($path: '', $size: cover, $repeat: no-repeat, $pos: center) {
+  background-image: url($path);
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $pos;
+}
+
+@mixin flex-direction($type: 'all') {
+  display: flex;
+
+  @if $type== 'center' {
+    justify-content: center;
+    align-items: center;
+  } @else if $type== 'sb' {
+    justify-content: space-between;
+  } @else if $type== 'sb-end' {
+    justify-content: space-between;
+    align-items: flex-end;
+  } @else if $type== 'sb-center' {
+    justify-content: space-between;
+    align-items: center;
+  } @else if $type== 'wrap-around' {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } @else if $type== 'end' {
+    justify-content: flex-end;
+  }
+}

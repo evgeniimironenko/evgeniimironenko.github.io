@@ -1,0 +1,14 @@
+.banner {
+  padding: 15px 20px 50px 20px;
+  min-width: 280px;
+  min-height: 420px;
+  height: 100vh;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/banner@2x.jpg);
+  }
+}
