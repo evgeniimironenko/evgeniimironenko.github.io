@@ -1,0 +1,94 @@
+.page-header {
+  padding-top: 3.7rem;
+}
+.logo-text {
+  margin: 0;
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: var(--cormorant-font);
+  font-weight: bold;
+  color: var(--main-text-color);
+  margin-bottom: 1.1rem;
+  line-height: 1;
+}
+
+.logo-text__small {
+  margin: 0rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: var(--cormorant-font);
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 4.5rem;
+}
+.line {
+  width: 100%;
+  color: rgb(230, 230, 230);
+  height: 0.1rem;
+}
+
+.page-nav {
+  padding-top: 1.8rem;
+  padding-bottom: 1.1rem;
+}
+.nav-bar {
+  width: 100%;
+  padding-top: 1.8rem;
+  padding-bottom: 1.1rem;
+}
+
+.nav-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-logo {
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--pt-sans-font);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.nav-logo:hover {
+  color: var(--main-green-color);
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  display: block;
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--pt-sans-font);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.nav-list li a:hover {
+  color: var(--main-green-color);
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: none;
+}

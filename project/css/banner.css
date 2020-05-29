@@ -1,0 +1,77 @@
+.background-image {
+  background-image: url(../img/background2.png);
+  min-height: 56rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 7rem;
+  position: relative;
+}
+.background-wrapper {
+  text-align: center;
+  align-items: center;
+  bottom: 7rem;
+  left: 2rem;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 31%;
+  height: 58px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 60%,
+    rgba(72, 151, 76, 1) 60%,
+    rgba(72, 151, 76, 1) 100%
+  );
+}
+.background-wrapper__text {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--main-text-color);
+  font-family: var(--pt-sans-font);
+  font-weight: normal;
+  padding: 2rem 4.5rem 2rem 1.7rem;
+}
+.background-wrapper__link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--pt-sans-font);
+  color: var(--main-bg-color);
+  padding: 2rem 3rem;
+}
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 7rem;
+}
+.facebook {
+  width: 32%;
+  padding: 2.7rem 3.5rem;
+  min-height: 26rem;
+  background-color: var(--main-bg-color);
+}
+.banner {
+  width: 66%;
+  height: 26rem;
+  background-color: var(--main-bg-color);
+}
+.fb-page {
+}
+.banner__text {
+  font-size: 2.4rem;
+  color: var(--main-text-color);
+  font-family: var(--cormorant-font);
+  font-weight: 600;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+}
+.center {
+  text-align: center;
+  line-height: 26rem;
+}

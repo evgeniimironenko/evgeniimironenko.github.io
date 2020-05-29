@@ -1,0 +1,189 @@
+.main-background {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+.card-list,
+.cards-list {
+  width: 48.67%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.card-list {
+  flex-direction: column;
+}
+.card-list__item {
+  width: 100%;
+  min-height: 69.5rem;
+  background-color: #ffffff;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards-list__item {
+  width: 50%;
+  min-height: 35.5rem;
+  background-color: #ffffff;
+}
+.item {
+  margin-bottom: 3rem;
+}
+.card-list__occup {
+  padding-top: 2.5rem;
+  width: 90%;
+  margin: auto;
+}
+.card-list__occup--img {
+  padding-bottom: 1.3rem;
+}
+.card-list__occup--data {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: var(--main-gray-color);
+  font-family: var(--pt-sans-font);
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 1.1rem;
+  margin-left: 2.5rem;
+  position: relative;
+}
+.card-list__occup--data::after {
+  display: inline-block;
+  content: "";
+  background-size: contain;
+  background-image: url(../img/icons/icon-calendar.png);
+  width: 1.5rem;
+  height: 1.6rem;
+  position: absolute;
+  left: -2.5rem;
+  top: 0.4rem;
+}
+.card-list__occup--title {
+  font-size: 3rem;
+  color: var(--main-text-color);
+  font-family: var(--cormorant-font);
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.card-list__occup--text {
+  font-size: 1.6rem;
+  color: var(--main-black-color);
+  font-family: var(--pt-sans-font);
+  padding-bottom: 1.6rem;
+  line-height: 1.625;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-list-social {
+  display: flex;
+}
+.card-list__link {
+  display: block;
+  height: 5.4rem;
+  width: 32%;
+  border: 0.1rem solid var(--main-green-color);
+  background-color: var(--main-bg-color);
+  text-decoration: none;
+  text-align: center;
+  line-height: 5.2rem;
+  font-size: 1.4rem;
+  color: var(--main-green-color);
+  text-transform: uppercase;
+  font-family: var(--pt-sans-font);
+  font-weight: bold;
+}
+
+.card-list__link:hover,
+.card-list__link:focus {
+  background-color: var(--main-green-color);
+  cursor: pointer;
+  color: var(--main-bg-color);
+}
+.card-list__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-list__social {
+  list-style: var(--list-style);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+}
+.card-list__social svg {
+  fill: #cccccc;
+}
+.card-list__social svg:hover,
+.card-list__social svg:focus {
+  fill: var(--main-green-color);
+}
+.cards-list__item {
+  border-right: 0.1rem solid #e6e6e6;
+  border-bottom: 0.1rem solid #e6e6e6;
+}
+.cards-list__item--occup {
+  padding-top: 1.7rem;
+  width: 82%;
+  margin: auto;
+}
+.second-wrapper__img {
+  padding-bottom: 1.5rem;
+}
+.second-wrapper__title {
+  font-size: 2.4rem;
+  color: #262626;
+  font-family: "Cormorant Infant", serif;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.second-wrapper__descr {
+  font-size: 1.6rem;
+  color: var(--main-black-color);
+  font-family: var(--pt-sans-font);
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 1.1rem;
+  line-height: 1.625;
+}
+
+.second-wrapper__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: "PT sans", sans-serif;
+  color: #48974c;
+  font-weight: bold;
+  margin-left: 2.5rem;
+  position: relative;
+}
+.second-wrapper__link::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -2.2rem;
+  top: 0px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/icons/icon-arrow.png);
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #48974c;
+}

@@ -1,0 +1,31 @@
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0rem 1.8rem;
+  margin: 0rem auto;
+}
+/* VARIABLES */
+:root {
+  --main-bg-color: #ffffff;
+  --list-style: none;
+  --cormorant-font: "Cormorant Infant", serif;
+  --pt-sans-font: "PT Sans", sans-serif;
+  --main-text-color: #262626;
+  --main-green-color: #48974c;
+  --main-gray-color: #a6a6a6;
+  --main-black-color: #737373;
+}

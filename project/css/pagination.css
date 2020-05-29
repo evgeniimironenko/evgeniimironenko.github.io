@@ -1,0 +1,84 @@
+.pagination {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.4rem;
+  padding-bottom: 7.2rem;
+}
+.pagination__btn {
+  display: block;
+  min-height: 5.4rem;
+  width: 16.5%;
+  border: 1px solid var(--main-green-color);
+  background-color: var(--main-bg-color);
+  text-decoration: none;
+  text-align: center;
+  line-height: 5.2rem;
+  font-size: 1.4rem;
+  color: var(--main-green-color);
+  text-transform: uppercase;
+  font-family: var(--pt-sans-font);
+  font-weight: bold;
+  position: relative;
+}
+.pagination__btn::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icons/icon-arrow.png);
+  background-size: cover;
+  width: 0.6rem;
+  height: 1rem;
+  position: absolute;
+  top: 2.1rem;
+  right: 3rem;
+}
+.pagination__btn:hover,
+.pagination__btn:focus {
+  background-color: var(--main-green-color);
+  cursor: pointer;
+  color: var(--main-bg-color);
+}
+.pagination-list {
+  list-style: var(--list-style);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 41%;
+}
+.pagination-list__item svg {
+  fill: #bcbcbc;
+}
+.pagination-list__item svg:hover,
+.pagination-list__item svg:focus {
+  fill: #606060;
+}
+
+.pagination-list__item--link:hover,
+.pagination-list__item--link:focus {
+  cursor: pointer;
+  background-color: var(--main-green-color);
+  color: var(--main-bg-color);
+}
+.pagination-list__item--link {
+  padding: 1.5rem 2.5rem;
+  margin: 0 0.5rem;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-size: 1.6rem;
+  font-family: var(--pt-sans-font);
+  text-decoration: none;
+  width: 5.6rem;
+  text-align: center;
+  height: 5.6rem;
+}
+.arrow {
+  padding: 1.5rem 0rem;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #b6b6b6;
+}
+.arrow:hover,
+.arrow:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #606060;
+}
