@@ -67,6 +67,9 @@
   .footer-img {
     width: 78.22%;
   }
+  .footer-list {
+    padding: 0;
+  }
 }
 @media (max-width: 688px) {
   .slider {
@@ -74,6 +77,10 @@
   }
   .background-wrapper {
     width: 72%;
+  }
+  .footer-list__wrapper {
+    padding: 0;
+    width: 30%;
   }
 }
 @media (max-width: 588px) {
@@ -100,6 +107,7 @@
   }
   .footer-text {
     width: 50%;
+    padding-bottom: 1rem;
   }
   .footer-text__title {
     width: 100%;
@@ -114,6 +122,7 @@
   .footer-list {
     text-align: center;
     padding-bottom: 0.5rem;
+    padding: 0;
   }
   .footer-list__wrapper {
     width: 50%;
@@ -145,6 +154,7 @@
     width: 60%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 425px) {
   .card-list__link {
     width: 38%;
@@ -170,6 +180,9 @@
   }
   .pagination-list {
     width: 60%;
+  }
+  .footer-list__wrapper {
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
